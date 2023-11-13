@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE-2. AJAX</title>
+</head>
+<body>
+    <div id="form-container"> 
+    
+        <h1>Haz tu pedido!!</h1>
+        <fieldset>
+            <legend>Datos Personales:</legend>
+        <form>
+            <label class = "input-text" for="nombre-input">
+                <p>Nombre</p>
+                <input type="text" name="nombre" id="nombre-input" />
+            </label>
+            <label class = "input-text" for="direccion-input">
+                <p>Dirección</p>
+                <input type="text" name="direccion" id="direccion-input" />
+            </label>
+            <label class = "input-text" for="telefono-input">
+                <p>Teléfono</p>
+                <input type="text" name="telefono" id="telefono-input" />
+            </label>
+            <label class = "input-text" for="email-input">
+                <p>Email</p>
+                <input type="text" name="email" id="email-input" />
+            </label>
+        </form>    
+        </fieldset>
+        <fieldset>  
+            <legend>A elegir:</legend> 
+        <!-- Contenedor para mostrar dinámicamente los tamaños de las pizzas -->
+            <div class = "tamaños" id="tamaños-container">
+             <p id="elegir-tamaño">Tamaño de la pizza :</p>
+            <!-- Aquí se mostrarán los tamaños de las pizzas -->
+            </div>
+
+            <!-- Contenedor para mostrar dinámicamente los ingredientes -->
+            <div class="ingredientes" id="ingredientes-container">
+                <p id="elegir-ingredientes">Elige los ingredientes:</p>
+            <!-- Aquí se mostrarán los ingredientes -->
+            </div>
+    </div>
+    
+    </fieldset>
+    <button type="button" id="form-button"> Hacer Pedido</button>
+    <button type="button" id="actualizar-button">Actualizar Datos</button>
+</div> 
+</body>
+<script src="/AE-2. AJAX/js/index.js"></script>
+</html>
+
+

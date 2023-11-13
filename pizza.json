@@ -1,0 +1,57 @@
+
+{
+    "tamaños": [
+      {
+        "nombre": "pequeña",
+        "precio": 12
+      },
+      {
+        "nombre": "mediana",
+        "precio": 16
+      },
+      {
+        "nombre": "grande",
+        "precio": 20
+      }
+    ],
+    "ingredientes": [
+      {
+        "nombre": "tomate",
+        "precio": 1.5
+      },
+      {
+        "nombre": "queso",
+        "precio": 2.0
+      },
+      {
+        "nombre": "jamón",
+        "precio": 2.5
+      },
+      {
+        "nombre": "champiñones",
+        "precio": 2.0
+      },
+      {
+        "nombre": "aceitunas",
+        "precio": 1.0
+      },
+      {
+        "nombre": "anchoas",
+        "precio": 1.5
+      },
+      {
+        "nombre": "pollo",
+        "precio": 2.0
+      },
+      {
+        "nombre": "pepperoni",
+        "precio": 2.5
+      },
+      {
+        "nombre": "alcaparras",
+        "precio": 2.0
+      }
+    
+    ]
+  }
+   
